@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+.top-padding {
+    padding-top: 100px;
+}
+
+.card {
+    background-color: #0086b3;
+}
+
+.form-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    padding: 0;
+    // box-shadow: 2px 0 2px rgba(0, 0, 0, 0.16), 2px 0 8px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
+
+.mat-form-field {
+    width: 80%;
+}
+.content {
+    margin-top: 15px;
+}
+.result-text {
+    margin: 5px;
+}
+.submit-btn {
+    background-color: rgba(17, 207, 64, 0.685);
+}
+.reset-btn {
+    background-color: rgb(102, 90, 90);
+}
+.result {
+    margin: auto;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #0086b3;
+    color: white;
+}
