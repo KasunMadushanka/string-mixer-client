@@ -30,17 +30,25 @@
                 </div>
             </mat-card-content>
             <mat-card-actions>
-                <button (click)="onSubmit()" [disabled]="!isFormValid()" mat-raised-button class="submit-btn">
+                <button
+                    (click)="onSubmit()"
+                    mat-raised-button
+                    class="submit-btn"
+                    [disabled]="!isFormValid()"
+                >
                     Submit
                 </button>
-                <button (click)="onReset()" [disabled]="!isFormValid()"  mat-raised-button class="reset-btn">
+                <button
+                    (click)="onReset()"
+                    mat-raised-button
+                    class="reset-btn"
+                    [disabled]="!isFormValid()"
+                >
                     Reset
                 </button>
             </mat-card-actions>
         </mat-card>
     </form>
-  
-    <div *ngIf="result" class="result">
-        mix(s1, s2) ->  {{ result }}
-    </div>
+
+    <div *ngIf="result" class="result">mix(s1, s2) -> {{ result }}</div>
 </div>
